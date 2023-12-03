@@ -1,0 +1,12 @@
+*-to know what is in github project folder 
+1- git status
+*- to add any update from working folder to your local repo Or github on internet 
+2- git add (file name ) OR (* for all )
+*-if you add file but you need to remove it 
+3- git reset head (filename.Extensions)
+*- to add file in local repo 
+4- git commit -m " whta happend OR what chnage OR what file upload "
+*-To Kow what is local branch in local repo 
+5-git branch
+*-To push what is local branch in local repo to git repo 
+6- git push (RemoteName)>>>(branchName)
