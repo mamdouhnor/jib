@@ -7,6 +7,8 @@
 *- to add file in local repo 
 4- git commit -m " whta happend OR what chnage OR what file upload "
 *-To Kow what is local branch in local repo 
-5-git branch
-*-To push what is local branch in local repo to git repo 
+5-git branch origin main
+*-To push what is local branch in local repo to remote repo 
 6- git push (RemoteName)>>>(branchName)
+*- to know RemoteName branch
+7-git remote -v
