@@ -1,89 +1,84 @@
-/* Start  main page attrib */
+/* Start  main page Properties */
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   background-color: #ffeead;
   height: 100%;
   padding: 0px;
   margin: 0px;
 }
-/* End main page attrib */
-/* start main container attrib */
+/* End main page Properties */
+/* start main container Properties */
 .container {
-    height: 100%; 
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px auto 40px;
+  height: 100%;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 40px auto 40px;
 }
 
 .container > div:nth-child(1n) {
-    background-color: #0769B9;	
+  background-color: #0769b9;
 }
 
 .container > div:nth-child(3n) {
-    background-color: #88d8b0;
+  background-color: #88d8b0;
 }
 
 .container > div:nth-child(2n) {
-    background-color: #10558d;
+  background-color: #10558d;
 }
 
 .container > div:nth-child(4n) {
-    background-color: #0769B9;
+  background-color: #0769b9;
 }
 
-/* End main container attrib */
+/* End main container Properties */
 
 .container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffff;
 }
 
 .header {
-    grid-column: 3/ -1;
-   
+  grid-column: 3/ -1;
 }
 
 .menu {
-    grid-column: 1/ 3;
-    grid-row: 1/ 4;
-    display: flex;
-    flex-direction: column;
-    /* align-self: stretch; */
+  grid-column: 1/ 3;
+  grid-row: 1/ 4;
+  display: flex;
+  flex-direction: column;
+  /* align-self: stretch; */
 }
 
 .content {
-    grid-column: 3/ -1;
+  grid-column: 3/ -1;
 }
 
 .footer {
-    grid-column: 3/ -1;
+  grid-column: 3/ -1;
 }
 
-.profile{
-    font-size: 15px;
-   
+.profile {
+  font-size: 15px;
 }
 
-.menu .sidebar ul{
-    list-style-type: none;
+.menu .sidebar ul {
+  list-style-type: none;
 }
 
-
-.menu .sidebar ul li a .item{
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-  
-  
+.menu .sidebar ul li a .item {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-
-.profile img .mlogo{
-    text-align: center;
+.profile img .mlogo {
+  text-align: center;
 }

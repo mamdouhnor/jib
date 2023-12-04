@@ -12,3 +12,9 @@
 6- git push (RemoteName)>>>(branchName)
 *- to know RemoteName branch
 7-git remote -v
+*-********************************************
+Push Local Changes To Remote Repository
+-git status 
+-git branch
+-git remote -v 
+-git push origin main
