@@ -17,4 +17,10 @@ Push Local Changes To Remote Repository
 -git status 
 -git branch
 -git remote -v 
+-git commit -m " add note here "
 -git push origin main
+
+*****************************************
+Everything About Git Configurations 
+-git cinfig -l (liste for Configurations in git )
+-
